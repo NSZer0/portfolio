@@ -1,0 +1,110 @@
+body {
+  /* Remove the default margins around the body so the backgrounds fill the entire page */
+  margin: 0px;
+}
+
+header, footer {
+  /* Set the background color for the header and footer container */
+  background-color: #004f79;
+  /* Set the text color for the header and footer container */
+  color: #c8c8c8;
+}
+
+header {
+  /* Set vertical and horizontal padding */
+  padding: 10px 100px;
+
+  /* Used for the navigation bar */
+  li {
+    /* Display the list in a single line */
+    display: inline;
+    /* Margins increase to create more space between navigation buttons */
+    margin: 0px 20px;
+  }
+
+  a {
+    /* Increasing the padding makes the clickable part of the link bigger */
+    padding: 5px;
+  }
+
+  /* Pseudo-class to modify the color scheme for the various link actions only in the header */
+  a:link {color: white;}
+  a:visited {color: lightgray;}
+  a:hover {color: red;}
+  a:active {color: lightgreen;}
+  
+  .title-section {
+    padding: 0 20px;
+    /* Set the font family and fallbacks */
+    font-family: 'Courier New', Courier, 'Times New Roman', serif;
+  }
+}
+
+main {
+  /* Background color for the main container */
+  background-color: #93d9ff;
+  /* Text color for the main container */
+  color: #454545;
+  /* Font style and fallbacks for the main container */
+  font-family: Comic Sans MS, Courier, 'Times New Roman', serif;
+
+  /* Pseudo-class to modify the color scheme for the various link actions only in the main container. */
+  a:link {color: blue;}
+  a:visited {color: darkgray;}
+  a:hover {color: red;}
+  a:active {color: lightgreen;}
+
+  .section-container {
+    display: flex;
+    padding: 5px;
+  }
+
+  .image-container-right {
+    /* Force the image on the left side of the container */
+    float: right;
+    /* Create some space between the text and image */
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .image-container-left {
+    /* Force the image on the left side of the container */
+    float: left;
+    /* Create some space between the text and image */
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .contact-list {
+    /* Add 10 pixels of space between the links in the list */
+    margin-bottom: 10px;
+    /* Remove the bullets from list items with this class */
+    list-style-type: none;
+  }
+}
+
+section {
+  padding: 50px 20%;
+}
+
+footer {
+  /* Add some padding to the footer so it doesn't look so compact. Applies 10 pixels of padding to all sides. */
+  padding: 10px;
+}
+
+a {
+  /* Remove the underline from links */
+  text-decoration: none;
+  /* Make link text bold */
+  font-weight: bold;
+}
+
+hr {
+  /* Make the horizontal line not cover the entire width of the page. Leaves horizontal margin of 10% on each side */
+  margin: 0px 10%;
+}
+
+.center {
+  /* Center the text of any container with the "center" class */
+  text-align: center;
+}

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Portfolio</title>
+    <!-- Normalize CSS for different browsers. Place before custom CSS file so it doesn't overwrite custome changes. -->
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet" type="text/css"/>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  
+  <body>
+    <header>
+      <!-- Header section for the name and career objective -->
+      <!-- Added a class to apply specific CSS to the container -->
+      <!-- Divs are ambiguous containers used to help with formatting and page layout -->
+      <div class="header-container">
+        <div class="title-section center">
+          <!-- Container for the header text -->
+          <!-- Main page title -->
+          <h1>Bradley Mans</h1>
+          <!-- Subheading for career objective -->
+          <h3>Senior Software Engineer</h3>
+        </div>
+      </div>
+      <nav class="center">
+        <!-- Display a horizontal navigation bar using an unordered list under the headshot and text. -->
+        <ul class="nav-list">
+          <!-- List items to use for page navigation links -->
+          <li>
+            <!-- Creates a hyperlink, but with the # it links to an anchor on this page -->
+            <a href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#about">About Me</a>
+          </li>
+          <li>
+            <a href="#contact">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  
+    <main>
+      <!-- Main body of the page containing the introduction, about me, and contact section -->
+      <!-- Article containers are meant to contain content such as blog posts -->
+      <article>
+        <!-- Using 'id' adds a navigation anchor that the navigation bar can link to -->
+        <!-- Break up the article into multiple distinct sections -->
+        <section id="introduction">
+          <!-- Introduction section -->
+          <h2 class="center">
+            My Experience
+          </h2>
+          <!-- <div class="section-container"> -->
+            <div class="section-text">
+              <!-- Creates a text container -->
+              <p>
+                Hello, my name is Bradley, and I am a senior software engineer from Minneapolis, Minnesota.
+              </p>
+              <p>
+                I have worked as a software engineer for eight years, working on both frontend and backend development. My work experience includes:
+              </p>
+              <!-- Displays various experience as unordered lists -->
+              <ul>
+                <!-- Creates a list item -->
+                <li>
+                  Languages:
+                  <!-- Use a nested unordered list -->
+                  <ul>
+                    <li>
+                      C++
+                    </li>
+                    <li>
+                      Java
+                    </li>
+                    <li>
+                      Javascript
+                    </li>
+                    <li>
+                      HTML
+                    </li>
+                    <li>
+                      CSS
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  Technologies:
+                  <ul>
+                    <li>
+                      Visual Studio
+                    </li>
+                    <li>
+                      Visual Studio Code
+                    </li>
+                    <li>
+                      PyCharm
+                    </li>
+                    <li>
+                      Android Studio
+                    </li>
+                    <li>
+                      React.js
+                    </li>
+                    <li>
+                      Node.js
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  Platforms:
+                  <ul>
+                    <li>
+                      Windows
+                    </li>
+                    <li>
+                      Mac
+                    </li>
+                    <li>
+                      Linux
+                    </li>
+                    <li>
+                      Android
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          <!-- </div> -->
+        </section>
+
+        <!-- Creates a horizontal line to break up sections -->
+        <hr>
+        
+        <section id="about">
+          <!-- About Me section -->
+          <h2 class="center">
+            About Me
+          </h2>
+          <!-- <div class="section-container"> -->
+            <div class="image-container-right">
+              <!-- Container for the luminol image with a width of 300 pixels -->
+              <img src="images/luminol.jpg" width="300" alt="A picture of an experiment from college on chemical luminescence." />
+            </div>
+            <div class="section-text">
+              <p>
+                <!-- History -->
+                After high school, I went to college and ended up pursuing multiple different careers, from medicine to chemical engineering. It wasn't until I finally started working as an entry level software engineer that I felt like I found the right career. Now, I am enrolled at Thinkful to boost my skills and continue my career as a software engineer.
+              </p>
+              <p>
+                As a software engineer, my favorite tasks involved developing web-based user interfaces. One of my favorite aspects of software engineer was collaborating with colleagues to develop intuitive products.
+              </p>
+              <p>
+                Outside of programming, my other interests include:
+              </p>
+              <!-- Display interests in a numerical (ordered) list -->
+              <ol>
+                <li>
+                  Visiting and exploring different state and national parks
+                </li>
+                <li>
+                  Strategy games, either card games, board games, or video games
+                </li>
+                <li>
+                  Anything science and technology related, from chemistry to computers
+                </li>
+              </ol>
+            </div>
+          <!-- </div> -->
+        </section>
+
+        <hr>
+        
+        <section id="contact">
+          <!-- Contact section -->
+          <h2 class="center">
+            Contact Me
+          </h2>
+          <div class="section-container">
+            <div class="image-container-left">
+              <!-- Container for the bridge image with a width of 300 pixels -->
+              <img src="images/bridge.jpg" width="300" alt="A picture of a bridge taken in England." />
+            </div>
+            <div class="section-text">
+              <p>
+                I am always happy to hear from fellow colleagues. If you're interested in contacting me, here are a couple of links to find me.
+              </p>
+              <ul>
+                <li class="contact-list">
+                  <!-- Link to Github -->
+                  <a href="https://github.com/NSZer0">Github</a>
+                </li>
+                <li class="contact-list">
+                  <!-- Link to LinkedIn -->
+                  <a href="https://www.linkedin.com/in/bradley-mans-258624286/">LinkedIn</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+  
+    <footer>
+      <!-- Footer for the page containing copyright information -->
+      <p class="center">
+        &#169; Bradley Mans
+      </p>
+    </footer>
+  </body>
+</html>
