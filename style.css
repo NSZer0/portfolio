@@ -105,6 +105,8 @@ a {
 }
 
 hr {
+  /* Morph the horizontal rule into a narrow box */
+  height: 5px;
   /* Make the horizontal line not cover the entire width of the page. Leaves horizontal margin of 10% on each side */
   margin: 0px 10%;
 }
