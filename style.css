@@ -14,6 +14,11 @@ header {
   /* Set vertical and horizontal padding */
   padding: 10px 100px;
 
+  h1 {
+    /* Increase the font size for the main title. */
+    font-size: 48px;
+  }		
+
   /* Used for the navigation bar */
   li {
     /* Display the list in a single line */
